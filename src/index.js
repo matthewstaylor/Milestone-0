@@ -6,13 +6,13 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 import App from './App'
-import Matt from './matt/matt'
+import Matt from './about/matt/matt'
 
 const routing = (
     <Router>
         <div>
-            <Route path exact="/" component={App}/>
-            <Route path="/matt" component={Matt}/>
+            <Route path exact="/" component={App} />
+            <Route path="/matt" component={Matt} />
         </div>
     </Router>
 )
