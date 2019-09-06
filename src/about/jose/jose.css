@@ -1,0 +1,14 @@
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1rem;
+    top: 50%;
+    border: 5px solid black;
+  }
+  
+.body {
+    height: 100%;
+    background-image: url(./assets/images/neon.jpg); /* source: https://unsplash.com/photos/k1bO_VTiZSs */
+}
