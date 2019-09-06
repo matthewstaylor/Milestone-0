@@ -2,7 +2,6 @@ import React from 'react';
 import './matt.css';
 import Card from 'react-bootstrap/Card'
 import photo from './assets/images/Matthew201909.jpg'
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 function Matt() {
     return (
