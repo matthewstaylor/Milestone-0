@@ -7,12 +7,14 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 import App from './App'
 import Matt from './about/matt/matt'
+import Jose from './about/jose/jose'
 
 const routing = (
     <Router>
         <div>
             <Route path exact="/" component={App} />
             <Route path="/matt" component={Matt} />
+            <Route path="/jose" component={Jose} />
         </div>
     </Router>
 )
