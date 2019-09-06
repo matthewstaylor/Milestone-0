@@ -6,7 +6,7 @@ import photo from './assets/images/Matthew201909.jpg'
 function Matt() {
     return (
         <div className="aboutMatt">
-            <div className="body">
+            <div className="matt-body">
                 <div className="row">
                     <div className="col-lg-4"></div>
                     <div className="col-lg-4" style={{ textAlign: "center" }}>
