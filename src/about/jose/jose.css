@@ -8,7 +8,7 @@
     border: 5px solid black;
   }
   
-.body {
+.jose-background {
     height: 100%;
     background-image: url(./assets/images/neon.jpg); /* source: https://unsplash.com/photos/k1bO_VTiZSs */
 }
