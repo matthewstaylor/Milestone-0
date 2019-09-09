@@ -6,7 +6,7 @@ import photo from './assets/images/profilePic.jpg'
 function Jose() {
     return (
         <div className="aboutMatt">
-            <div className="body">
+            <div className="jose-background">
                 <div className="row">
                     <div className="col-lg-4"></div>
                     <div className="col-lg-4" style={{ textAlign: "center" }}>
