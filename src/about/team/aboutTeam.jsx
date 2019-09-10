@@ -17,6 +17,7 @@ import {Image} from 'react-bootstrap';
 import nazikPhoto from '../nazik/assets/img/nazik.jpg';
 import josePhoto from '../jose/assets/images/profilePic.jpg'
 import mattPhoto from '../matt/assets/images/Matthew201909.jpg'
+import dhavalPhoto from '../dhaval/assets/images/dhaval.jpg'
 
 function Copyright() {
   return (
@@ -80,10 +81,10 @@ const cards = [
     key: 3
   },
   {
-    imgSource: "https://source.unsplash.com/random",
+    imgSource:dhavalPhoto,
     heading: "Dhaval Shirvi",
     desription: "Student in Computer Science",
-    link: "",
+    link: "/dhaval",
     key: 4
   },
   {
@@ -142,8 +143,7 @@ export default function Team() {
                     </Typography>
                   </CardContent>
                   <CardActions container justify="center">
-                    {/* TODO: make this a link to About me page */}
-                  <Button>
+                  <Button href={card.link}>
                       View
                     </Button>
                   </CardActions>
