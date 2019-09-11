@@ -13,7 +13,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import g12logo from './assets/img/g12-logo.png';
-import {Image} from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import nazikPhoto from '../nazik/assets/img/nazik.jpg';
 import josePhoto from '../jose/assets/images/profilePic.jpg'
 import mattPhoto from '../matt/assets/images/Matthew201909.jpg'
@@ -81,7 +81,7 @@ const cards = [
     key: 3
   },
   {
-    imgSource:dhavalPhoto,
+    imgSource: dhavalPhoto,
     heading: "Dhaval Shirvi",
     desription: "Student in Computer Science",
     link: "/dhaval",
@@ -104,7 +104,7 @@ export default function Team() {
       <CssBaseline />
       <AppBar position="relative">
         <Toolbar>
-          <Image src={g12logo} rounded style={{height: '50px', paddingRight: '7px'}}/>
+          <Image src={g12logo} rounded style={{ height: '50px', paddingRight: '7px' }} />
           <Typography variant="h6" color="inherit" noWrap>
             Group 12
           </Typography>
@@ -115,10 +115,10 @@ export default function Team() {
         <div className={classes.heroContent}>
           <Container maxWidth="md">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Welcome to Group 12!
+              Welcome to The Victors.
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Thank you for visiting our group. Here you can get to know us better.
+              Thank you for visiting our group. Check out our individual pages.
             </Typography>
           </Container>
         </div>
@@ -143,7 +143,7 @@ export default function Team() {
                     </Typography>
                   </CardContent>
                   <CardActions container justify="center">
-                  <Button href={card.link}>
+                    <Button href={card.link}>
                       View
                     </Button>
                   </CardActions>
