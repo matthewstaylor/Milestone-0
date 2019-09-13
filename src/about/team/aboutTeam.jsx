@@ -71,7 +71,7 @@ const cards = [
     heading: "Nazik Almazova",
     desription: "Junior in Computer Science",
     link:
-      "https://lamp.cse.fau.edu/~cen4010fal19_g12/the_victors/nazik/index.html",
+      "https://lamp.cse.fau.edu/~nalmazova2017/",
     key: 1
   },
   {
