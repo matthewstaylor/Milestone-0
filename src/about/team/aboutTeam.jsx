@@ -87,7 +87,7 @@ const cards = [
     heading: "Dhaval Shirvi",
     desription: "Student in Computer Science",
     link:
-      "https://lamp.cse.fau.edu/~cen4010fal19_g12/the_victors/dhaval/index.html",
+      "https://lamp.cse.fau.edu/~dshirvi2016/the_victors/dhaval/index.html",
     key: 4
   },
   {
