@@ -78,7 +78,8 @@ const cards = [
     heading: "Jose Quesada",
     desription:
       "Double majoring in Computer Engineering and Computer Science at FAU. Music performance and production is a strong secondary passion of mine.",
-    link: "/jose",
+    link:
+      "https://lamp.cse.fau.edu/~cen4010fal19_g12/the_victors/jose/index.html",
     key: 3
   },
   {
