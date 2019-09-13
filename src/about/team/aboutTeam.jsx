@@ -70,7 +70,8 @@ const cards = [
     imgSource: nazikPhoto,
     heading: "Nazik Almazova",
     desription: "Junior in Computer Science",
-    link: "/nazik",
+    link:
+      "https://lamp.cse.fau.edu/~cen4010fal19_g12/the_victors/nazik/index.html",
     key: 1
   },
   {
@@ -86,7 +87,8 @@ const cards = [
     imgSource: dhavalPhoto,
     heading: "Dhaval Shirvi",
     desription: "Student in Computer Science",
-    link: "/dhaval",
+    link:
+      "https://lamp.cse.fau.edu/~cen4010fal19_g12/the_victors/dhaval/index.html",
     key: 4
   },
   {
@@ -94,7 +96,8 @@ const cards = [
     heading: "Matthew Taylor",
     desription:
       "Rising junior Computer Science student at Florida Atlantic University.",
-    link: "/matt",
+    link:
+      "https://lamp.cse.fau.edu/~cen4010fal19_g12/the_victors/matt/index.html",
     key: 2
   }
 ];
