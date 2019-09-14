@@ -96,7 +96,7 @@ const cards = [
     desription:
       "Rising junior Computer Science student at Florida Atlantic University.",
     link:
-      "https://lamp.cse.fau.edu/~cen4010fal19_g12/the_victors/matt/index.html",
+      "https://lamp.cse.fau.edu/~taylormatthe2015/",
     key: 2
   }
 ];
